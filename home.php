@@ -13,7 +13,7 @@ if(!isset($_SESSION['username'])){
         <link rel="icon" href="img/icon1.png">
         <link href="https://fonts.googleapis.com/css2?family=Gayathri&family=Marck+Script&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Gayathri&family=Lemonada&family=Marck+Script&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/normalize.css">
+        
         <link rel="stylesheet" href="css/style.css">
     </head>
     
