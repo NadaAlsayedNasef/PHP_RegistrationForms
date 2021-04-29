@@ -21,11 +21,10 @@ if(!isset($_SESSION['username'])){
         <header class="signin">
                 <div class="container">
                     <form class="input-group">
-                        <h1> WELCOME <span class="colorchange"><?php echo $_SESSION['username'];?></span><br>
+                        <h2> WELCOME <span class="colorchange"><?php echo $_SESSION['username'];?></span><br>
                         <?php echo $_SESSION['E_MAIL'];?><br>
                         <?php echo $_SESSION['PASSWORD'];?><br>
-                        .
-                        </h1>
+                        </h2>
                         <div class='buttons'>
                             <a href="logOut.php" class="main-button-icon"> Log Out </a>
                             <!--<a href="main.html" class="my-button"> user</a>-->
