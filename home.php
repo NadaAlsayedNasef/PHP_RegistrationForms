@@ -24,6 +24,7 @@ if(!isset($_SESSION['username'])){
                         <h2> WELCOME <span class="colorchange"><?php echo $_SESSION['username'];?></span><br>
                         <?php echo $_SESSION['E_MAIL'];?><br>
                         <?php echo $_SESSION['PASSWORD'];?><br>
+                        ..........
                         </h2>
                         <div class='buttons'>
                             <a href="logOut.php" class="main-button-icon"> Log Out </a>
